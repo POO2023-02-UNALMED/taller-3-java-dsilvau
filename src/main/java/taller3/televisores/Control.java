@@ -32,9 +32,9 @@ public class Control {
 		this.tv.canalUp();
 	}
 	public void turnOff() {
-		this.tv.setEstado(false);;
+		this.tv.setEstado(false);
 	}
 	public void turnOn() {
-		this.tv.setEstado(true);;
+		this.tv.setEstado(true);
 	}
 }

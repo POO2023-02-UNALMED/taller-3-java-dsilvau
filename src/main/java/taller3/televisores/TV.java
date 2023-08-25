@@ -32,7 +32,7 @@ public class TV {
 	public Control getControl() {
 		return control;
 	}
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	public boolean getEstado() {
@@ -80,6 +80,11 @@ public class TV {
 	public static void setNumTV(int num) {
 		numTV = num;
 	}
-	
+	public void turnOff() {
+		this.setEstado(false);
+	}
+	public void turnOn() {
+		this.setEstado(true);
+	}
 
 }
