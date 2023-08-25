@@ -68,7 +68,7 @@ public class TV {
 	}
 	public void canalDown() {
 		if(canal > 1 && estado == true) {
-			canal++;
+			canal--;
 		}
 	}
 	public void volumenUp() {
@@ -78,7 +78,7 @@ public class TV {
 	}
 	public void volumenDown() {
 		if(volumen > 0 && estado == true) {
-			volumen++;
+			volumen--;
 		}
 	}
 	public static void setNumTV(int num) {
